@@ -9,7 +9,7 @@ Le projet PALPP étudie l'eyetracking ou oculométrie.
 "L'oculométrie est un outil d'analyse qui permet de déterminer à quel endroit se pose le regard d'une personne. Cette information peut servir pour étudier le comportement humain ou commander un système. Par exemple, l'eyetracking trouve de nombreuse applications dans l'assistance aux personnes à mobilité réduite.
 Il existe deux catégories de système : avec ou sans contact." (source : http://www.label.mips.uha.fr/vision3d.php).
 
-Cette démonstration du lecteur JavaScript est destiné à joueur des sessions d'oculométrie dont les données proviennent de fichiers "csv" ou "json".
+Cette démonstration du lecteur JavaScript est destiné à jouer des sessions d'oculométrie dont les données proviennent de fichiers "csv" ou "json".
 Les données récoltées pour la démonstration proviennent de systèmes avec contact :
 * un système Pupil  fabriqué par Pupil Labs
 * un système SMI Eye Tracking Glasses (données capturées pendant une partie de basket).
