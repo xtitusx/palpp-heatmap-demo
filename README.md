@@ -17,7 +17,7 @@ Les données récoltées pour la démonstration proviennent de systèmes avec co
 
 ## Exécution
  
- * Dans un navigateur, ouvrir le fichier "app/demo.html".
+ * Dans un navigateur, ouvrir "http://localhost/palpp-heatmap-demo/app/demo.html".
  * Une barre d'outil sommaire permet de visualiser :
 	 * le déplacement progressif en temps réel de la pupille de l’œil (**ProgressivePath**).
 	 * la représentation complète en fil de fer des déplacements (**FullPath**).
@@ -36,7 +36,7 @@ Contient les fichiers de données nécessaires à la lecture d'une session : hor
 Contient toutes les fonctionnalités du lecteur, notamment les appels aux bibliothèques JavaScript Raphaël et Heatmap qui effectuent les tracés vectoriels et la carte de chaleur.
 Pour modifier le fichier que l'on souhaite lire, il est nécessaire de changer les paramètres de la méthode suivante :
 
-parseData("http://localhost:63342/palpp-heatmap-demo/app/input/data.json", "pupil", "json", "heatmap", doStuff)
+parseData("http://localhost/palpp-heatmap-demo/app/input/data.json", "pupil", "json", "heatmap", doStuff)
 
 Paramètres :
 param 1 : url du fichier à traiter (accepte les fichiers JSON et CSV avec Header en 1ère ligne et les données sur les autres lignes)

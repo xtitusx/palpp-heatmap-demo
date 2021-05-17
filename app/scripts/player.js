@@ -3,7 +3,7 @@
  */
 
 //parseData("http://localhost:63342/palpp-heatmap-demo/app/input/gaze_postions.csv", "pupil", "csv", "heatmap", doStuff);
-parseData("http://localhost:63342/palpp-heatmap-demo/app/input/data.json", "pupil", "json", "heatmap", doStuff);
+parseData("http://localhost/palpp-heatmap-demo/app/input/data.json", "pupil", "json", "heatmap", doStuff);
 
 /* parseData params :
 param 1 : url du fichier à traiter (accepte les fichiers JSON et CSV avec Header en 1ère ligne et les données sur les autres lignes)
