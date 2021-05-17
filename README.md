@@ -1,4 +1,4 @@
-# PALPP-Heatmap Demo
+# palpp-heatmap-demo
 
 ## Capture d'écran
 
