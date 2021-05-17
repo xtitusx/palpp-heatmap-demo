@@ -50,4 +50,4 @@ function parseData(url, callBack) {
   });
 }
 
-parseData("http://localhost:63342/PALPP-HeatmapDemo/app/input/gaze_postions.csv", doStuff);
+parseData("http://localhost:63342/palpp-heatmap-demo/app/input/gaze_postions.csv", doStuff);

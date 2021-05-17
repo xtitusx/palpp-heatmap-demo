@@ -2,8 +2,8 @@
  * Created by benja_000 on 29/11/2016.
  */
 
-//parseData("http://localhost:63342/PALPP-HeatmapDemo/app/input/gaze_postions.csv", "pupil", "csv", "heatmap", doStuff);
-parseData("http://localhost:63342/PALPP-HeatmapDemo/app/input/data.json", "pupil", "json", "heatmap", doStuff);
+//parseData("http://localhost:63342/palpp-heatmap-demo/app/input/gaze_postions.csv", "pupil", "csv", "heatmap", doStuff);
+parseData("http://localhost:63342/palpp-heatmap-demo/app/input/data.json", "pupil", "json", "heatmap", doStuff);
 
 /* parseData params :
 param 1 : url du fichier à traiter (accepte les fichiers JSON et CSV avec Header en 1ère ligne et les données sur les autres lignes)
@@ -14,7 +14,7 @@ param 5 : fonction appellée en rappel après le parse (ne pas modifier)
 */
 
 // Exemple de lancement du traitement d'un fichier CSV "smi.csv" du device smi :
-//parseData("http://localhost:63342/PALPP-HeatmapDemo/app/input/smi.csv", "smi", "csv", "heatmap", doStuff);
+//parseData("http://localhost:63342/palpp-heatmap-demo/app/input/smi.csv", "smi", "csv", "heatmap", doStuff);
 
 function parseData(url, device, type, canvasId, callBack) {
   switch(type) {

@@ -2,9 +2,9 @@
  * Created by benja on 27/11/2016.
  */
 
-parseData("http://localhost:63342/PALPP-HeatmapDemo/app/input/gaze_postions.csv", "pupil", "csv", "heatmap", doStuff);
-//parseData("http://localhost:63342/PALPP-HeatmapDemo/app/input/data.json", "pupil", "json", "heatmap", doStuff);
-//parseData("http://localhost:63342/PALPP-HeatmapDemo/app/input/smi.csv", "smi", "csv", "heatmap", doStuff);
+parseData("http://localhost:63342/palpp-heatmap-demo/app/input/gaze_postions.csv", "pupil", "csv", "heatmap", doStuff);
+//parseData("http://localhost:63342/palpp-heatmap-demo/app/input/data.json", "pupil", "json", "heatmap", doStuff);
+//parseData("http://localhost:63342/palpp-heatmap-demo/app/input/smi.csv", "smi", "csv", "heatmap", doStuff);
 
 function parseData(url, device, type, canvasId, callBack) {
   switch(type) {

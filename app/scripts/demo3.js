@@ -2,7 +2,7 @@
  * Created by benja on 18/11/2016.
  */
 
-parseData("http://localhost:63342/PALPP-HeatmapDemo/app/input/gaze_postions.csv", doStuff);
+parseData("http://localhost:63342/palpp-heatmap-demo/app/input/gaze_postions.csv", doStuff);
 
 function parseData(url, callBack) {
   Papa.parse(url, {
